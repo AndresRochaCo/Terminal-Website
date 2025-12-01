@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+
+#body-container{
+     background-image: url('fYOvOr1.png');
+     background-size: cover;        /* Makes it fill the screen */
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Avoids repetition */
+  height: 100vh;
+    
+}
+
+
+.top-container{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+}
+
+
+
+
+.top-container-left{
+    width: 100%;
+    background-color: brown;
+}
+
+
+.top-container-right{
+    width: 100%;
+    background-color: pink;
+}
+
